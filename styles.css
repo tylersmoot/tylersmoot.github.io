@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 nav {
@@ -191,6 +196,8 @@ nav img {
     }
 }
 
+
+
 @media screen and (max-width: 360px) {
 
     #about h2 {
@@ -199,25 +206,31 @@ nav img {
        justify-content: space-around;
 
     }
+
+
+
 }
 
-@media screen and (max-width: 360px) {
+
+
+#about hr {
+    width: 400px;
+    height: 10px;
+    color: white;
+    border-radius: 20px;
+  
+}
+
+@media screen and (max-width: 770px) {
 
     #about hr {
         
        display: flex;
        margin-left: -150px;
+       width: 340px;
       
 
     }
-}
-
-#about hr {
-    width: 600px;
-    height: 10px;
-    color: white;
-    border-radius: 20px;
-  
 }
 
 #leaf {
