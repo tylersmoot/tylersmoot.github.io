@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+
+
+
+.logo-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.logo-banner i {
+    padding: 10px;
+}
+
+.logo-banner img {
+    position: relative;
+    width: 10%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  
+}
+
+
+
+
+
+.test-nav {
+    
+    height: 100%;
+    width: 250px;
+    background: green;
+    display: none;
+    justify-content: start;
+    align-items: start;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: fixed;
+   top: 56px;
+   bottom: -56px;
+   border-top: 1px solid white;
+   border-right: 1px solid white;
+}
+
+.test-nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    
+}
+
+.test-nav ul li {
+   color: white;
+   padding: 15px;
+}
+
+
+
+
+
+
+
+.header {
+    height: 100vh;
+    background: url(images/header-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+
+}
+
+.header p{
+    width: 75%;
+    padding-bottom: 20px;
+    text-align: center
+}
+
+.header h1 {
+    font-family: 'Suez One', serif;
+    letter-spacing: 0.3cm;
+    padding: 40px;
+    font-size: 35px;
+    text-align: center;
+  
+}
+
+.header h2 {
+   
+    letter-spacing: 0.2cm;
+    padding: 20px;
+}
+
+.header button {
+    padding: 10px;
+    background: green;
+    color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-family: 'Suez One', serif;
+    opacity: 0.9;
+
+   
+}
+
+
+
+#col1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+ flex-direction: column;
+ flex-wrap: wrap;
+   
+}
+
+#about {
+ padding: 50px;
+ display: flex;
+
+ 
+}
+
+#about .text p {
+    font-family: 'Josefin Slab', serif;
+    font-size: 4rem;
+     color: green;
+     text-shadow: 2px 2px 20px;
+    transform: rotateZ(-10deg);
+    
+}
+
+#about .text h2 {
+    font-family: 'Suez One', serif;
+    letter-spacing: 0.2cm;
+   
+}
+
+#about #about-text p {
+    font-weight:lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.services #service-background {
+    background: url(images/work2.jpg);
+    background-size: cover;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+   
+}
+
+#service-background h2 {
+    font-size: 40px;
+    font-family: 'Suez One', serif;
+    text-align: center;
+    
+}
+
+#landscape-col1 {
+    display: flex;
+    justify-content: center;
+    background: #4c4e50;
+    color: white;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+#landscape-col1 ul {
+    list-style-type: none;
+    
+}
+
+#landscape-col1 ul li {
+    line-height: 35px;
+ }
+
+#maintenance-background {
+    background: url(images/work.jpg);
+    height: 55vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#maintenance-background h2 {
+   font-size: 40px;
+    color: white;
+    font-family: 'Suez One', serif;
+    text-align: center;
+}
+
+
+
+#maintenance-col2 {
+    display: flex;
+    justify-content: center;
+    background: #4c4e50;
+    color: white;
+  text-align: center;
+    align-items: center;
+}
+
+
+#maintenance-col2 ul {
+    list-style-type: none;
+}
+
+#maintenance-col2 ul li {
+   line-height: 35px;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.gallery .container {
+    display: flex;
+    justify-content: center;
+}
+
+#gallery-col1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery h2 {
+    font-family: 'Suez One', serif;
+    letter-spacing: 0.2cm;
+    padding-top: 60px;
+    
+}
+
+.gallery p {
+    font-family: 'Josefin Slab', serif; 
+    text-align: center;
+     transform: rotateZ(-10deg);
+     font-size: 4rem;
+     color:green;
+     text-shadow: 2px 2px 20px;
+}
+
+.gallery img {
+    width: 100%;
+    padding: 10px;
+}
+
+#landscaping-text {
+    color: green;
+    text-shadow: 2px 2px 20px;
+    
+}
+
+
+.contact {
+    height: 40vh;
+    background: #4c4e50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.contact p {
+    color: white;
+    font-size: 15px;
+    
+}
+
+.icons i {
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 20px;
+}
