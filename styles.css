@@ -150,7 +150,9 @@ nav li i:hover {
 
 
 
-
+hr {
+    margin-top: 100px;
+}
 
 
 
@@ -183,14 +185,15 @@ nav li i:hover {
 #header img {
     width: 70%;
     border-radius: 200px;
+    box-shadow: 2px 2px 20px #756fd6;
 }
 
-
+/* 
 @media screen and (max-width: 767px) {
     #header img {
         display: none;
     }
-}
+} */
 
 
 

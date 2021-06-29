@@ -4,6 +4,7 @@ let navMenu = document.getElementById("nav-dropdown");
 let body = document.querySelector("body");
 
 
+
 openMenu.addEventListener("click", function() {
 
   navMenu.style.opacity = "1";
@@ -36,4 +37,5 @@ closeMenu.addEventListener("click", function () {
  
  
  });
+
 
