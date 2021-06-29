@@ -10,6 +10,7 @@ openMenu.addEventListener("click", function() {
   navMenu.style.animation = "open 1s ease-out";
   openMenu.style.display ="none";
   closeMenu.style.display = "inline-block";
+ 
   
 return;
 
