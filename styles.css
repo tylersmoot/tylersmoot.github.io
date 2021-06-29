@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background: #00000d;
+    
+}
+
+
+
+
+#nav-button {
+    color: white; 
+    position: fixed; 
+    margin-left: 15px; 
+    margin-top: 15px;
+}
+
+#nav-button-close {
+    color: white; 
+    position: fixed; 
+    margin-left: 15px; 
+    margin-top: 15px;
+    display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    #nav-button {
+      display: none;  
+    }
+}
+
+
+nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+nav ul {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+   
+}
+
+nav ul li a {
+    padding: 60px;
+    color: white;
+    font-family: 'Dela Gothic One', cursive;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: #756fd6;
+}
+
+nav li i {
+color: white;
+padding-left: 20px;
+
+}
+
+nav li i:hover {
+    color: #756fd6;
+    cursor: pointer;
+}
+
+#nav-dropdown {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: #00000d;
+   opacity: 0;
+  
+   
+}
+
+#nav-dropdown ul {
+    list-style-type: none;
+    padding: 20px;
+    
+}
+
+#nav-dropdown ul li {
+    padding: 10px;
+  
+}
+
+#nav-dropdown ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#nav-dropdown ul li i {
+    color: white;
+    padding: 10px;
+}
+
+
+@keyframes open {
+0% {
+    width: 0%;
+}
+
+100% {
+    width: 100%;
+    
+}
+
+}
+
+@keyframes close {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+       
+        
+        
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    #nav-icons {
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width: 760px) {
+    nav ul {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#header h1 {
+    color:white; 
+    font-family: 'Dela Gothic One', cursive; 
+    font-size: 4rem; 
+    letter-spacing: 0.3cm;
+    text-align: center;
+}
+
+
+
+#header h1 span {
+    color: #756fd6; 
+    font-weight: bold;
+}
+
+#header p {
+    color: white; 
+    font-size: 20px; 
+    text-align: left; 
+    font-family: 'Roboto', sans-serif; 
+    padding-top: 20px;
+    text-align: center;
+}
+
+#header img {
+    width: 70%;
+    border-radius: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+#skills h1 {
+    color:white; 
+    font-family: 'Dela Gothic One', cursive; 
+    font-size: 2rem; 
+    letter-spacing: 0.3cm; 
+    text-align: center; 
+    padding-top: 80px; 
+    padding-bottom: 40px; 
+}
+
+#skills h2 {
+    color: #756fd6; 
+    letter-spacing: 0.1cm; 
+    padding-bottom: 20px; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+#skills p {
+    color: white; 
+    letter-spacing: 2px; 
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+#skills img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#frameworks {
+    background: white;
+}
+
+
+#frameworks h1 {
+    color:black; 
+    font-family: 'Dela Gothic One', cursive; 
+    font-size: 2rem; 
+    letter-spacing: 0.2cm; 
+    text-align: center; 
+    padding-top: 80px; 
+    padding-bottom: 40px;
+}
+
+#frameworks h1 span {
+    color: #756fd6;
+}
+
+#frameworks ul {
+    list-style-type: none;  
+    font-family: 'Roboto', sans-serif;
+}
+
+#frameworks img {
+    width: 150px; 
+    height: 150px;
+}
+
+#frameworks p {
+    text-align: center; 
+    letter-spacing: 2px;
+}
