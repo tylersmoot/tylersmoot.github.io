@@ -217,6 +217,7 @@ hr {
     text-align: center; 
     padding-top: 80px; 
     padding-bottom: 40px; 
+   
 }
 
 #skills h2 {
@@ -224,6 +225,7 @@ hr {
     letter-spacing: 0.1cm; 
     padding-bottom: 20px; 
     font-family: 'Roboto', sans-serif; 
+    
 }
 
 #skills p {
@@ -233,6 +235,7 @@ hr {
     padding-bottom: 10px;
     word-wrap: break-word;
     text-align: left;
+ 
 }
 
 #skills img {
@@ -282,4 +285,14 @@ hr {
 #frameworks p {
     text-align: center; 
     letter-spacing: 2px;
+}
+
+#offer h1 {
+    color: white;
+    font-family: 'Dela Gothic One', cursive; 
+    font-size: 2rem; 
+    letter-spacing: 0.2cm; 
+    text-align: center; 
+    padding-top: 80px; 
+    padding-bottom: 40px;
 }

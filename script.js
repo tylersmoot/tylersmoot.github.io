@@ -5,6 +5,12 @@ let body = document.querySelector("body");
 
 
 
+
+
+
+
+
+
 openMenu.addEventListener("click", function() {
 
   navMenu.style.opacity = "1";
